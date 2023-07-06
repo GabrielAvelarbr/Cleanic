@@ -10,6 +10,24 @@ de estabelecimentos médicos. Nosso objetivo é fornecer aos profissionais de sa
 abrangente, eficiente e intuitiva.
 
 # Funcionalidades
++ Criar consultas: permite cirar consultas de forma rápida e prática, selecionando médico, paciente, clínica, data e horário.
++ Visualizar consultas: permite visualizar consultas criadas.
++ Alterar consultas: permite alterar dados das consultas criadas.
++ Excluir consultas: permite excluir consultas criadas.
+<br></br>
+
++ Cadastrar médicos: permite cadastrar novos médicos no sistema.
++ Visualizar médicos: permite visualizar dados dos médicos cadastrados.
++ Alterar dados do médico: permite alterar dados dos médicos cadastrados.
++ Excluir médico: permite excluir médicos cadastrados.
++ <br></br>
+
++ Cadastrar paciente: permite cadastrar novos pacientes no sistema.
++ Visualizar pacientes: permite visualizar dados dos pacientes cadastrados.
++ <br></br>
+
++ Cadastrar clínicas: permite cadastrar novas clínicas no sistema.
++ Visualizar médicos: permite visualizar dados das clínicas cadastrados.
 
 # Tecnologias
 + HTML (Versão: HTML5)
@@ -21,3 +39,9 @@ abrangente, eficiente e intuitiva.
 + Apache (Versão: 2.4.56)
 
 # Estrutura do repositório 
+
+# Atuores
++ Dominic Laercio Braz Dias
++ Gabriel Venancio de Avelar 
++ Guilherme Henrique Silva Barbara
+
