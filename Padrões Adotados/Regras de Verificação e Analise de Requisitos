@@ -1,0 +1,19 @@
+Nomenclatura dos Requisitos: Os requisitos serão classificados e identificados seguindo a seguinte nomenclatura: 
+
+Requisitos Funcionais (RF): Representam as funcionalidades que o sistema deve fornecer. 
+Requisitos Não Funcionais (RNF): Representam as restrições e características não relacionadas diretamente às funcionalidades do sistema, mas que são importantes para seu desempenho, qualidade e usabilidade.
+
+Regras de Especificação de Requisitos:
+
+1 - Utilização de linguagem clara e concisa: 
+    - Os requisitos devem ser escritos de forma clara, sem ambiguidades, utilizando termos e vocabulário compreensíveis para os envolvidos no projeto. 
+    - Evite jargões técnicos desnecessários ou termos ambíguos que possam levar a interpretações errôneas.
+
+2 - Detalhamento adequado dos requisitos:
+    - Cada requisito deve ser especificado de forma completa, contendo informações suficientes para que possa ser implementado e testado corretamente.
+    - Os requisitos devem ser descritos de maneira granular, divididos em unidades lógicas e independentes para facilitar a compreensão e rastreabilidade.
+
+3 - Rastreabilidade e rótulos:
+    - Cada requisito deve ser identificado com um rótulo exclusivo para permitir sua rastreabilidade ao longo do ciclo de vida do projeto.
+    -  Estabeleça relações entre os requisitos e outros artefatos, como casos de uso, modelos de negócio ou outros documentos relacionados, para fornecer uma visão clara das dependências e impactos entre os elementos do sistema.
+  
