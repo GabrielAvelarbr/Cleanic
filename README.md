@@ -1,4 +1,7 @@
 # Cleanic
+
+![_36c43f2d-da67-45a9-8f63-dc31617668d5-removebg-preview](https://github.com/GabrielAvelarbr/Cleanic/assets/117688731/44cad1db-5105-49de-b10f-5dc54ff1c2ac)
+
 Projeto final Engenharia de Software.
 
 > Status: Em desenvolvimento
