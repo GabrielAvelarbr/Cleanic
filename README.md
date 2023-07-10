@@ -1,5 +1,11 @@
 # Cleanic
 
+<p align="right">
+  <img src="https://github.com/GabrielAvelarbr/Cleanic/assets/117688731/9d4530a2-ab39-4717-9b3d-e27f5b34441e" alt="Descrição da imagem" style="float: right;">
+</p>
+
+
+
 Projeto final Engenharia de Software.
 
 > Status: Em desenvolvimento
