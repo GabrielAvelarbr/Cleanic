@@ -41,7 +41,25 @@ abrangente, eficiente e intuitiva.
 
 ## Regras de commit
 
+- Realize Commits atômicos:
+  -Para facilitar a revisão e o entendimento do projeto, preorize sempre commits que sejam focados em apenas uma alteração ou funcionalidade.
+
+- Mensagens objetivas e curtas:
+  - Descreva os commits de forma mais curta e clara possível;
+  - Utilize sempre o uso de verbos no tempo presente, para que a mensagem seja melhor interpretada.
+  
 ## Uso de branches
+
+- Nome descritivo:
+  - Ao nomear uma branch, lembre-se de colocar um nome que indique a origem da alteração.
+
+- Crie branches específicas para cada funcionalidade:
+  - Sempre que começar a desenvolver uma nova funcionalidade ou manutenção, certifique-se de criar uma branch separada a partir da principal.
+
+- Mantenha as branches sincronizadas:
+  - Sempre mantenha as branches atualizadas com as últimas alterações da branch principal. Antes de fazer merge ou pull request, certifique-se de mesclar as alterações da       branch principal na sua branch. A fim de evitar conflitos. 
+  
+
 
 # Prática de codificação
 
