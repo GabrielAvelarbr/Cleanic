@@ -1,5 +1,10 @@
 # Cleanic
 
+div align="center"
+img src="![Logo](https://github.com/GabrielAvelarbr/Cleanic/assets/117688731/1166b9ff-0b2d-4769-af15-1ea80a92a0bc)." width="700px" /
+/div
+
+
 Projeto final Engenharia de Software.
 
 > Status: Em desenvolvimento
