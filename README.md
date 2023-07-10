@@ -43,6 +43,8 @@ abrangente, eficiente e intuitiva.
 - `Padrões Adotados/`: Padrões adotados no desenvolvimento desse projeto.
   - `Regras de Verificação e Analise de Requisitos/`: Regras de especificação de requisitos.
 
+- `Requisitos Cleanic/`: Documento de requisitos.
+
 
 
 ## Autores
