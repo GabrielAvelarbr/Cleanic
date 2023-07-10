@@ -15,18 +15,12 @@ abrangente, eficiente e intuitiva.
 + Visualizar consultas: permite visualizar consultas criadas.
 + Alterar consultas: permite alterar dados das consultas criadas.
 + Excluir consultas: permite excluir consultas criadas.
-<br></br>
-
 + Cadastrar médicos: permite cadastrar novos médicos no sistema.
 + Visualizar médicos: permite visualizar dados dos médicos cadastrados.
 + Alterar dados do médico: permite alterar dados dos médicos cadastrados.
 + Excluir médico: permite excluir médicos cadastrados.
-<br></br>
-
 + Cadastrar paciente: permite cadastrar novos pacientes no sistema.
 + Visualizar pacientes: permite visualizar dados dos pacientes cadastrados.
-<br></br>
-
 + Cadastrar clínicas: permite cadastrar novas clínicas no sistema.
 + Visualizar médicos: permite visualizar dados das clínicas cadastrados.
 
