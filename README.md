@@ -35,10 +35,16 @@ abrangente, eficiente e intuitiva.
 
 ## Estrutura do repositório
 
+- `Diagramas/`: Armazena os diagramas da Cleanic.
+  - `Diagrama de classes/`: Diagrama de classes do sistema.
+  - `Diagrama de pacotes/`: Diagrama de pacotes do sistema.
+  - `Diagrama de sequência/`: Diagrama de sequência do sistema.
+
 - `Padrões Adotados/`: Padrões adotados no desenvolvimento desse projeto.
   - `Regras de Verificação e Analise de Requisitos/`: Regras de especificação de requisitos.
 
 - `Requisitos Cleanic/`: Documento de requisitos.
+
 
 
 
