@@ -28,7 +28,10 @@ abrangente, eficiente e intuitiva.
 # Regras de uso
 
 ## Estrutura do repositório
-
+- `Source/`: Armazena o código-fonte do projeto.
+  - `Frontend/`: Arquivos e pastas do frontend.
+  - `Backend/`: Arquivos e pastas do backend.
+ 
 - `Diagramas/`: Armazena os diagramas da Cleanic.
   - `Diagrama de classes/`: Diagrama de classes do sistema.
   - `Diagrama de pacotes/`: Diagrama de pacotes do sistema.
