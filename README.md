@@ -34,6 +34,7 @@ abrangente, eficiente e intuitiva.
     
  - `docs/`: Diretório que contém toda a documentação necessária para o desenvolvimento do projeto.
     - `Diagramas/`: Armazena os diagramas da Cleanic.
+        - `Diagrama de implantação/`: Diagrama de implantação do sistema.
         - `Diagrama de classes/`: Diagrama de classes do sistema.
         - `Diagrama de pacotes/`: Diagrama de pacotes do sistema.
         - `Diagrama de sequência/`: Diagrama de sequência do sistema.
