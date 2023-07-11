@@ -28,19 +28,20 @@ abrangente, eficiente e intuitiva.
 # Regras de uso
 
 ## Estrutura do repositório
-- `Source/`: Armazena o código-fonte do projeto.
+- `Source/`: Diretório que armazena o código-fonte do projeto.
   - `Frontend/`: Arquivos e pastas do frontend.
   - `Backend/`: Arquivos e pastas do backend.
- 
-- `Diagramas/`: Armazena os diagramas da Cleanic.
-  - `Diagrama de classes/`: Diagrama de classes do sistema.
-  - `Diagrama de pacotes/`: Diagrama de pacotes do sistema.
-  - `Diagrama de sequência/`: Diagrama de sequência do sistema.
+    
+ - `docs/`: Diretório que contém toda a documentação necessária para o desenvolvimento do projeto.
+    - `Diagramas/`: Armazena os diagramas da Cleanic.
+        - `Diagrama de classes/`: Diagrama de classes do sistema.
+        - `Diagrama de pacotes/`: Diagrama de pacotes do sistema.
+        - `Diagrama de sequência/`: Diagrama de sequência do sistema.
 
-- `Padrões Adotados/`: Padrões adotados no desenvolvimento desse projeto.
-  - `Regras de Verificação e Analise de Requisitos/`: Regras de especificação de requisitos.
+    - `Padrões Adotados/`: Padrões adotados no desenvolvimento desse projeto.
+      - `Regras de Verificação e Analise de Requisitos/`: Regras de especificação de requisitos.
 
-- `Requisitos Cleanic/`: Documento de requisitos.
+    - `Requisitos Cleanic/`: Documento de requisitos.
 
 ## Regras de commit
 
@@ -65,6 +66,18 @@ abrangente, eficiente e intuitiva.
 
 
 # Prática de codificação
+
+- Siga padrões de estilo:
+  - Mantenha sempre o mesmo estilo de codiciação durante todo o projeto, o que inclui formatação do código e organização de imports.
+
+- Dê nomes autodescritivos:
+  - Priorize sempre nomear as classes, variáveis e métodos com nomes que descrevem sua funcionalidade. Facilitando assim a manutenibilidade e escalabilidades futuras.
+
+- Design de classes:
+  - Faça uso de boas práticas de design de classes, e evite dupliações de código, baixo acoplamento e boa coesão. Ou seja, desenvolva o projeto de forma que cada componente seja responsável por realizar uma única tarefa, seguindo o princípio da responsabilidade única. Isso torna o código mais modular, facilita a manutenção e promove a reutilização de código.
+ 
+- Testes:
+  - Realize sempre testes de aceitação ou testes end-to-end para avaliar o funcionamento global do sistema, imitando as interações do usuário e verificando os resultados esperados. Esses testes asseguram que o sistema esteja funcionando de acordo com os requisitos estabelecidos.
 
 # Tecnologias
 + HTML (Versão: HTML5).
