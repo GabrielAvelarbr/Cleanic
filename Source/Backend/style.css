@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.mainLogin {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftLogin {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-color: #20B2AA;
+}
+
+
+.rightLogin {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoRightLogin {
+    width: 130px;
+    margin: -40px -40px;
+}
+
+.cardLogin > h2 {
+    font-weight: 800;
+}
+
+.textField {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.textField > label {
+    margin-bottom: 5px;;
+}
+
+.textField > input {
+    border-radius: 12px;
+    padding: 15px;
+    background: #ffffff;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+    width:370px;
+    border:solid 1px;
+}
+
+.botaoEntrar {
+        border: none;
+        border-radius: 12px;
+        padding: 15px;
+        background: #20B2AA;
+        outline: none;
+        width: 370px;
+        font-weight: 800;
+        color: #ffffff;
+        text-transform: uppercase; 
+        cursor: pointer;
+        font-size: 12pt;
+}
+
+.esqueciSenhaRightLogin {
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+.destaqueRightLogin {
+    color:#20B2AA;
+    font-weight: 550;
+  }
+    
