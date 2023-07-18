@@ -29,8 +29,6 @@ abrangente, eficiente e intuitiva.
 
 ## Estrutura do repositório
 - `Source/`: Diretório que armazena o código-fonte do projeto.
-  - `Frontend/`: Arquivos e pastas do frontend.
-  - `Backend/`: Arquivos e pastas do backend.
     
  - `docs/`: Diretório que contém toda a documentação necessária para o desenvolvimento do projeto.
     - `Diagramas/`: Armazena os diagramas da Cleanic.
