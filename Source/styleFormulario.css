@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0;
+}
+
+.caixa-dados {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 0px;
+    border-radius: 12px;
+    padding: 15px;
+    background: #ffffff;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+    width: 370px;
+    border: solid 1px;
+    border-color: #D9D9D9;
+  }
+
+  .botao-adicionar {
+    color: blue;
+}

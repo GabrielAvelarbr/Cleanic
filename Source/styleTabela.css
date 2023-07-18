@@ -1,0 +1,65 @@
+.categoria-lista{
+    font-weight: bold;
+    font-size: 18pt;
+    margin-left: 30px;
+}
+.destaque-lista{
+    color:#20B2AA;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+th {
+    height: 50px;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px;
+    background: #ffffff;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+    width: 100px;
+    height: 10px;
+    border: solid 2px;
+    border-color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.botao-adicionar {
+    margin-top: 50px;
+    margin-left: 71%;
+    width: 205px
+}
+
+.botao-voltar{
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    background: #20B2AA;
+    outline: none;
+    width: 370px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase; 
+    cursor: pointer;
+    font-size: 12pt;
+    margin-top: 30px;
+}
+
