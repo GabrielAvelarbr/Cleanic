@@ -5,15 +5,9 @@ Requisitos Não Funcionais (RNF): Representam as restrições e características
 
 Regras de Especificação de Requisitos:
 
-1 - Utilização de linguagem clara e concisa: 
-    - Os requisitos devem ser escritos de forma clara, sem ambiguidades, utilizando termos e vocabulário compreensíveis para os envolvidos no projeto. 
-    - Evite jargões técnicos desnecessários ou termos ambíguos que possam levar a interpretações errôneas.
+1 - Defina um requisito por vez:  cada requisito deve ser descrito de maneira isolada, sem combinar várias funcionalidades ou características em uma única declaração. Dessa forma, o requisito se torna mais claro, 
+conciso e menos propenso a ambiguidades.
 
-2 - Detalhamento adequado dos requisitos:
-    - Cada requisito deve ser especificado de forma completa, contendo informações suficientes para que possa ser implementado e testado corretamente.
-    - Os requisitos devem ser descritos de maneira granular, divididos em unidades lógicas e independentes para facilitar a compreensão e rastreabilidade.
+2 - Evite frases grandes: Frases muito extensas podem levar à confusão e dificultar a identificação das informações essenciais. 
 
-3 - Rastreabilidade e rótulos:
-    - Cada requisito deve ser identificado com um rótulo exclusivo para permitir sua rastreabilidade ao longo do ciclo de vida do projeto.
-    -  Estabeleça relações entre os requisitos e outros artefatos, como casos de uso, modelos de negócio ou outros documentos relacionados, para fornecer uma visão clara das dependências e impactos entre os elementos do sistema.
-  
+3 - Evite palavras ambíguas: palavras como e, ou, somente se, se necessário, mas, contudo, talvez, entretanto, amigável, flexível, versátil ou palavras que geram o mesmo sentido que essas.
