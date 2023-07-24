@@ -1,74 +1,76 @@
 <?php
     include("config.php");
     switch ($_REQUEST["acao"]) {
-        case 'cadastrar':
-            $nomeMedico = $_POST["nomeMedico"];
-            $especialidadeMedico = $_POST["especialidadeMedico"];
-            $emailMedico = $_POST["emailMedico"];
-            $telefoneMedico = $_POST["telefoneMedico"];
+        case 'cadastrar':         
+            try {
+                $nomeMedico = $_POST["nomeMedico"];
+                $especialidadeMedico = $_POST["especialidadeMedico"];
+                $emailMedico = $_POST["emailMedico"];
+                $telefoneMedico = $_POST["telefoneMedico"];
 
-            $sql = "INSERT INTO medico (nomeMedico, 
-            especialidadeMedico, emailMedico,telefoneMedico) 
-            VALUES ('{$nomeMedico}', '{$especialidadeMedico}', 
-            '{$emailMedico}', '{$telefoneMedico}')";
+                $sql = "INSERT INTO medico (nomeMedico, 
+                especialidadeMedico, emailMedico,telefoneMedico) 
+                VALUES ('{$nomeMedico}', '{$especialidadeMedico}', 
+                '{$emailMedico}', '{$telefoneMedico}')";
 
-            $resultado = $conn->query($sql);
+                $resultado = $conn->query($sql);
 
-            if($resultado==true){
-                echo "<script>alert('Médico cadastrado com sucesso');</script>";
+                if ($resultado) {
+                    echo "<script>alert('Médico adicionado com sucesso');</script>";
+                    echo "<script>location.href='todosOsMedicos.php';</script>";
+                } else {
+                    throw new Exception("Não foi possível adicionar esse médico. " . $conn->error);
+                }
+            } catch (Exception $e) {
+                echo "<script>alert('Erro ao adicionar o médico');</script>";
                 echo "<script>location.href='todosOsMedicos.php';</script>";
             }
-            else {
-                echo "<script>alert('Não foi possível cadastrar o médico');</script>";
-                echo "<script>location.href='todosOsMedicos.php';</script>";
-            }
-            
             break;
 
         case 'editar' :
-            $nomeMedico = $_POST["nomeMedico"];
-            $especialidadeMedico = $_POST["especialidadeMedico"];
-            $emailMedico = $_POST["emailMedico"];
-            $telefoneMedico = $_POST["telefoneMedico"];
-            
-            $sql = "UPDATE medico SET
-                        nomeMedico = '{$nomeMedico}',
-                        especialidadeMedico = '{$especialidadeMedico}',
-                        emailMedico = '{$emailMedico}',
-                        telefoneMedico = '{$telefoneMedico}'
-                    WHERE
-                        idMedico=" .$_REQUEST["idMedico"];
-            
+            try {
+                $nomeMedico = $_POST["nomeMedico"];
+                $especialidadeMedico = $_POST["especialidadeMedico"];
+                $emailMedico = $_POST["emailMedico"];
+                $telefoneMedico = $_POST["telefoneMedico"];
+                
+                $sql = "UPDATE medico SET
+                            nomeMedico = '{$nomeMedico}',
+                            especialidadeMedico = '{$especialidadeMedico}',
+                            emailMedico = '{$emailMedico}',
+                            telefoneMedico = '{$telefoneMedico}'
+                        WHERE
+                            idMedico=" .$_REQUEST["idMedico"];   
+                $resultado = $conn->query($sql);
 
-            $resultado = $conn->query($sql);
-
-            if($resultado==true){
-                echo "<script>alert('Dados do médico alterados com sucesso');</script>";
+                if ($resultado) {
+                    echo "<script>alert('Médico alterado com sucesso');</script>";
+                    echo "<script>location.href='todosOsMedicos.php';</script>";
+                } else {
+                    throw new Exception("Não foi possível atualizar esse médico. " . $conn->error);
+                }
+            } catch (Exception $e) {
+                echo "<script>alert('Erro ao atualizar o médico');</script>";
                 echo "<script>location.href='todosOsMedicos.php';</script>";
             }
-            else {
-                echo "<script>alert('Não foi possível modificar os dados desse médico');</script>";
-                echo "<script>location.href='todosOsMedicos.php';</script>";
-            }
-
             break;
 
         case 'excluir' :
-            $sql = "DELETE FROM medico WHERE idMedico=" .$_REQUEST["idMedico"];
+            try {
+                $sql = "DELETE FROM medico WHERE idMedico=" .$_REQUEST["idMedico"];
+                $resultado = $conn->query($sql);
 
-            $resultado = $conn->query($sql);
-
-            if($resultado==true){
-                echo "<script>alert('Médico excluído com sucesso');</script>";
+                if ($resultado) {
+                    echo "<script>alert('Médico excluído com sucesso');</script>";
+                    echo "<script>location.href='todosOsMedicos.php';</script>";
+                } else {
+                    throw new Exception("Não foi possível excluir esse médico. " . $conn->error);
+                }
+            } catch (Exception $e) {
+                echo "<script>alert('Erro ao excluir o médico');</script>";
                 echo "<script>location.href='todosOsMedicos.php';</script>";
             }
-            else {
-                echo "<script>alert('Não foi possível excluir esse médico');</script>";
-                echo "<script>location.href='todosOsMedicos.php';</script>";
-            }
-
-            
             break;
     }
-    
 ?>
+
