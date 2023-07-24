@@ -3,31 +3,32 @@
     include("config.php");
     switch ($_REQUEST["acao"]) {
         case 'cadastrar':
-            $nomeClinica = $_POST["nomeClinica"];
-            $enderecoClinica = $_POST["enderecoClinica"];
-            $cidadeClinica = $_POST["cidadeClinica"];
-            $estadoClinica = $_POST["estadoClinica"];
-            $cepClinica = $_POST["cepClinica"];
-            $emailClinica = $_POST["emailClinica"];
-            $telefoneClinica = $_POST["telefoneClinica"];
+            try {
+                $nomeClinica = $_POST["nomeClinica"];
+                $enderecoClinica = $_POST["enderecoClinica"];
+                $cidadeClinica = $_POST["cidadeClinica"];
+                $estadoClinica = $_POST["estadoClinica"];
+                $cepClinica = $_POST["cepClinica"];
+                $emailClinica = $_POST["emailClinica"];
+                $telefoneClinica = $_POST["telefoneClinica"];
+    
+                $sql = "INSERT INTO clinica (nomeClinica, enderecoClinica, cidadeClinica, 
+                estadoClinica, cepClinica, emailClinica, telefoneClinica) 
+                VALUES ('{$nomeClinica}', '{$enderecoClinica}', '{$cidadeClinica}', '
+                {$estadoClinica}', '{$cepClinica}','{$emailClinica}', '{$telefoneClinica}')";
+    
+                $resultado = $conn->query($sql);
 
-            $sql = "INSERT INTO clinica (nomeClinica, enderecoClinica, cidadeClinica, 
-            estadoClinica, cepClinica, emailClinica, telefoneClinica) 
-            VALUES ('{$nomeClinica}', '{$enderecoClinica}', '{$cidadeClinica}', '
-            {$estadoClinica}', '{$cepClinica}','{$emailClinica}', '{$telefoneClinica}')";
-
-            $resultado = $conn->query($sql);
-
-            if($resultado==true){
-                echo "<script>alert('Clínica cadastrada com sucesso');</script>";
-                echo "<script>location.href='todasAsClinicas.php';</script>";
+                if ($resultado) {
+                    echo "<script>alert('Consulta alterada com sucesso');</script>";
+                    echo "<script>location.href='todasAsClinicas.php';</script>";
+                } else {
+                    throw new Exception("Não foi possível atualizar esse consulta. " . $conn->error);
+                }
+            } catch (Exception $e) {
+                echo "<script>alert('Erro ao atualizar a Consulta');</script>";
+                echo "<script>location.href='todasAsClinicas.php.php';</script>";
             }
-            else {
-                echo "<script>alert('Não foi possível cadastrar a clínica');</script>";
-                echo "<script>location.href='todasAsClinicas.php';</script>";
-            }
-        break;
+            break;
     }
     ?>
- 
-    
