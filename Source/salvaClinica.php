@@ -22,12 +22,11 @@
                 echo "<script>alert('Clínica cadastrada com sucesso');</script>";
                 echo "<script>location.href='todasAsClinicas.php';</script>";
             }
-            
-            break;
             else {
                 echo "<script>alert('Não foi possível cadastrar a clínica');</script>";
                 echo "<script>location.href='todasAsClinicas.php';</script>";
             }
+        break;
     }
     ?>
  
