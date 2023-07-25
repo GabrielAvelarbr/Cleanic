@@ -1,7 +1,7 @@
 <?php
     include("config.php");
     switch ($_REQUEST["acao"]) {
-        case 'cadastrar':         
+        case 'cadastrar':
             try {
                 $nomeMedico = $_POST["nomeMedico"];
                 $especialidadeMedico = $_POST["especialidadeMedico"];
