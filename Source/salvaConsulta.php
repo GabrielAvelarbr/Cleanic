@@ -16,13 +16,13 @@
     
                 $resultado = $conn->query($sql);
                 if ($resultado) {
-                    echo "<script>alert('Consulta excluída com sucesso');</script>";
+                    echo "<script>alert('Consulta cadastrada com sucesso');</script>";
                     echo "<script>location.href='todasAsConsultas.php';</script>";
                 } else {
-                    throw new Exception("Não foi possível excluir essa Consulta. " . $conn->error);
+                    throw new Exception("Não foi possível cadastrar essa Consulta. " . $conn->error);
                 }
             } catch (Exception $e) {
-                echo "<script>alert('Erro ao excluir a Consulta');</script>";
+                echo "<script>alert('Erro ao cadastrar a Consulta');</script>";
                 echo "<script>location.href='todasAsConsultas.php';</script>";
             }
             break;

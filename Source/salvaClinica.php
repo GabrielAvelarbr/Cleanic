@@ -20,13 +20,13 @@
                 $resultado = $conn->query($sql);
 
                 if ($resultado) {
-                    echo "<script>alert('Consulta alterada com sucesso');</script>";
+                    echo "<script>alert('Clinica cadastrada com sucesso');</script>";
                     echo "<script>location.href='todasAsClinicas.php';</script>";
                 } else {
-                    throw new Exception("Não foi possível atualizar esse consulta. " . $conn->error);
+                    throw new Exception("Não foi possível cadastrar essa clínica. " . $conn->error);
                 }
             } catch (Exception $e) {
-                echo "<script>alert('Erro ao atualizar a Consulta');</script>";
+                echo "<script>alert('Erro ao cadastrar a Clinica');</script>";
                 echo "<script>location.href='todasAsClinicas.php.php';</script>";
             }
             break;

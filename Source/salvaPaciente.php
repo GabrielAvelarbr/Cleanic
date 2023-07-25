@@ -17,16 +17,15 @@
                 $resultado = $conn->query($sql);
 
                 if ($resultado) {
-                    echo "<script>alert('Paciente alterado com sucesso');</script>";
+                    echo "<script>alert('Paciente cadastrado com sucesso');</script>";
                     echo "<script>location.href='todosOsPacientes.php';</script>";
                 } else {
-                    throw new Exception("Não foi possível atualizar esse Paciente. " . $conn->error);
+                    throw new Exception("Não foi possível cadastrar esse Paciente. " . $conn->error);
                 }
             } catch (Exception $e) {
-                echo "<script>alert('Erro ao atualizar o Paciente');</script>";
+                echo "<script>alert('Erro ao cadastrar o Paciente');</script>";
                 echo "<script>location.href='todosOsPacientes.php';</script>";
             }
-            break;
             
             break;
     }
