@@ -27,7 +27,7 @@
                 }
             } catch (Exception $e) {
                 echo "<script>alert('Erro ao cadastrar a Clinica');</script>";
-                echo "<script>location.href='todasAsClinicas.php.php';</script>";
+                echo "<script>location.href='todasAsClinicas.php';</script>";
             }
             break;
     }
